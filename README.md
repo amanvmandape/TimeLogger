@@ -98,14 +98,6 @@ git clone https://github.com/yourusername/timesheet-app.git
 
 ---
 
-## Future Enhancements
-- Add **email notifications** for approvals/rejections  
-- Add **export to Excel/PDF** for timesheets  
-- Add **pagination** and search for admin timesheet view  
-- Implement **session management improvements**  
-
----
-
 ## License
 This project is licensed under the MIT License.
 
