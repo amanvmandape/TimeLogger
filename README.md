@@ -28,13 +28,13 @@ A **full-featured Timesheet Management System** built with **Java Servlets, JSP,
 
 ## Screenshots
 
-**User Dashboard / Timesheet Form**  
+**Login Form**  
 ![Login Screen](screens/1.png)  
 
-**Admin Dashboard / Approve Timesheets**  
+**User Dashboard**  
 ![User Dashboard](screens/2.png)  
 
-**Rejected Timesheet Modification**  
+**Admin Dashboard**  
 ![Admin Dashboard](screens/5.png)  
 
 ---
