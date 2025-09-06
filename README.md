@@ -76,17 +76,9 @@ git clone https://github.com/yourusername/timesheet-app.git
 ```
 
 2. **Configure the Database**  
-   - Create a database called `timesheet_db`  
-   - Run `schema.sql` to create tables  
-   - Update `DBConnection.java` with your DB credentials  
-
-3. **Deploy on Tomcat**  
-   - Copy the project to Tomcat `webapps` folder  
-   - Start the server and navigate to `http://localhost:8080/timesheet-app`  
-
-4. **Login Credentials (default for testing)**  
-   - Admin: `admin / admin123`  
-   - User: `user1 / user123`  
+   - Create a database called `emp_timesheets`  
+   - Run `scripts.sql` to create tables 
+   - Update DAO files in DAO folder with your DB credentials  
 
 ---
 
