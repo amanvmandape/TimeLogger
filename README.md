@@ -28,14 +28,14 @@ A **full-featured Timesheet Management System** built with **Java Servlets, JSP,
 
 ## Screenshots
 
-**User Dashboard / Timesheet Form**  
-![User Timesheet](screenshots/user_timesheet.png)  
+**Login Form**  
+![Login Screen](screens/1.png)  
 
-**Admin Dashboard / Approve Timesheets**  
-![Admin Dashboard](screenshots/admin_dashboard.png)  
+**User Dashboard**  
+![User Dashboard](screens/2.png)  
 
-**Rejected Timesheet Modification**  
-![Modify Rejected Timesheet](screenshots/modify_rejected.png)  
+**Admin Dashboard**  
+![Admin Dashboard](screens/5.png)  
 
 ---
 
@@ -76,17 +76,9 @@ git clone https://github.com/yourusername/timesheet-app.git
 ```
 
 2. **Configure the Database**  
-   - Create a database called `timesheet_db`  
-   - Run `schema.sql` to create tables  
-   - Update `DBConnection.java` with your DB credentials  
-
-3. **Deploy on Tomcat**  
-   - Copy the project to Tomcat `webapps` folder  
-   - Start the server and navigate to `http://localhost:8080/timesheet-app`  
-
-4. **Login Credentials (default for testing)**  
-   - Admin: `admin / admin123`  
-   - User: `user1 / user123`  
+   - Create a database called `emp_timesheets`  
+   - Run `scripts.sql` to create tables 
+   - Update DAO files in DAO folder with your DB credentials  
 
 ---
 
@@ -103,14 +95,6 @@ git clone https://github.com/yourusername/timesheet-app.git
 - **JDBC** for database interaction  
 - **Tailwind CSS** for responsive UI  
 - **SQL** (MySQL/PostgreSQL) for persistence  
-
----
-
-## Future Enhancements
-- Add **email notifications** for approvals/rejections  
-- Add **export to Excel/PDF** for timesheets  
-- Add **pagination** and search for admin timesheet view  
-- Implement **session management improvements**  
 
 ---
 
